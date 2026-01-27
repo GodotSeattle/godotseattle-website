@@ -1,11 +1,15 @@
 <div id="container">
   <div id="content">
     <h1 id="title">GODOT SEATTLE</h1>
-    <ul id="links">
+    <h2>Community</h2>
+    <ul>
       <li>
         <a href="https://discord.gg/G7WNW6GYrf" target="_blank"
           >Godot Seattle Discord</a
         >
+        <ul>
+          <li>Study hall every other Wednesday at 7pm PST!</li>
+        </ul>
       </li>
       <li>
         <a href="https://seattleindies.org/" target="_blank"
@@ -18,58 +22,113 @@
         >
       </li>
     </ul>
-    <img src="/favicon.svg" alt="Godot logo" id="logo" />
+
+    <h2>Projects from around Puget Sound</h2>
+    <ul>
+      <li>
+        <a
+          href="https://store.steampowered.com/app/3545170/Alices_Current_Draft/"
+          target="_blank">Alice's Current Draft</a
+        >
+      </li>
+      <li>
+        <a
+          href="https://store.steampowered.com/app/1934100/Ardor/"
+          target="_blank">Ardor</a
+        > and <a
+          href="https://store.steampowered.com/app/3964890/Ardor_2/"
+          target="_blank">Ardor 2</a
+        >
+      </li>
+      <li>
+        <a href="https://www.fablewoods.com/" target="_blank">Fablewoods</a>
+      </li>
+      <li>
+        <a
+          href="https://github.com/TheDuckCow/godot-road-generator"
+          target="_blank">Godot Road Generator</a
+        >
+      </li>
+      <li>
+        <a href="https://offworld.pizza" target="_blank">Offworld Pizza</a>
+      </li>
+      <li>
+        <a href="https://a-kimb0.itch.io/super-catto-ball" target="_blank"
+          >Super Catto Ball!</a
+        >
+      </li>
+      <li>
+        <a href="https://a-kimb0.itch.io/terminal-velocity" target="_blank"
+          >Terminal Velocity</a
+        >
+      </li>
+      <li>
+        <a href="https://wheelstealgame.com/" target="_blank">Wheel Steal</a>
+      </li>
+    </ul>
+    <img
+      src="/favicon.svg"
+      alt="Godot Seattle logo, the Godot icon styled like a popular Seattle landmark"
+      id="logo"
+    />
   </div>
+
+  <style>
+    #container {
+      height: 100vh;
+      background: linear-gradient(to bottom right, #363d52ff, #1a1f2e);
+      overflow: auto;
+      color: white;
+      font-family: "Roboto Condensed", sans-serif;
+    }
+
+    #content {
+      padding: 2rem;
+    }
+
+    ul {
+      margin: 1rem 0;
+      list-style-type: none;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 1.5rem;
+    }
+
+    ul ul {
+      padding-left: 2rem;
+      font-size: 1.2rem;
+    }
+
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+
+    a {
+      color: #61dafb;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    #title {
+      font-size: 3rem;
+      font-weight: bold;
+      margin: 0;
+      color: white;
+      font-family: "Lilita One", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    #logo {
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      height: 50vh;
+      width: auto;
+    }
+  </style>
 </div>
-
-<style>
-  #container {
-    height: 100vh;
-    padding: 2rem;
-    background: linear-gradient(to bottom right, #363d52ff, #1a1f2e);
-    box-sizing: border-box;
-    overflow: hidden;
-  }
-
-  #links {
-    margin: 1rem 0;
-    color: white;
-    list-style-type: none;
-    font-family: "Roboto Condensed", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1.5rem;
-  }
-
-  #links li {
-    margin-bottom: 0.5rem;
-  }
-
-  a {
-    color: #61dafb;
-    text-decoration: none;
-  }
-
-  a:hover {
-    text-decoration: underline;
-  }
-
-  #title {
-    font-size: 3rem;
-    font-weight: bold;
-    margin: 0;
-    color: white;
-    font-family: "Lilita One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-
-  #logo {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    height: 50vh;
-    width: auto;
-  }
-</style>
