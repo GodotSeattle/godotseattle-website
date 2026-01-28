@@ -2,9 +2,11 @@
 
 This is the source code for the Godot Seattle website at https://godotseattle.club
 
-It uses [Astro](https://astro.build/)
+It uses [Astro](https://astro.build/) and runs on a Cloudflare Worker.
 
-## 🧞 Commands
+Merges to the `main` branch are deployed automatically.
+
+## Commands
 
 All commands are run from the root of the project, from a terminal:
 
