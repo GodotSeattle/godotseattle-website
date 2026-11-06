@@ -11,6 +11,7 @@ body {
     font-family: "Roboto Condensed", sans-serif;
 }
 
+
 #container {
     min-height: 100vh;
     display: flex;
@@ -24,12 +25,12 @@ body {
     height: 50vh;
     width: auto;
     z-index: 0;
-    opacity: 0.8;
+    opacity: 0.5;
 }
 
 #github-link {
     display: block;
-    padding: 1rem 2rem;
+    padding: 1rem 4rem;
     color: #61dafb;
     text-decoration: none;
     font-size: 0.9rem;
