@@ -1,0 +1,15 @@
+---
+
+import './navbar.css';
+
+interface Props {
+    to: string;
+    scrolled?: boolean;
+}
+
+const { to } = Astro.props;
+---
+
+<a href={to} class="navbar-links">
+    <slot />
+</a>

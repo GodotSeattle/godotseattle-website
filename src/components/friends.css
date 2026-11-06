@@ -1,0 +1,66 @@
+/* Stylesheet for the Godot Seattle Projects Page. */
+
+
+#content {
+    padding: 4rem;
+    position: relative;
+    z-index: 1;
+}
+
+#heading {
+    font-size: 3rem;
+    font-family: "Lilita One", sans-serif;
+    color: #61dafb;
+    text-transform: uppercase;
+}
+
+#heading-2 {
+    font-size: 2.5rem;
+    font-family: "Lilita One", sans-serif;
+    color: #ffb300;
+    text-transform: uppercase;
+}
+
+#paragraph {
+    max-width: 50%;
+    font-size: 2rem;
+}
+
+.link {
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+
+    &:hover {
+        color: #ffb300;
+    }
+}
+
+ul {
+    padding-inline: 2.5rem;
+}
+
+li {
+    margin: 10px 0;
+    font-size: 2rem;
+    list-style: none;
+    text-transform: capitalize;
+}
+
+@media (max-width: 25.125rem) {
+
+    #content {
+        padding: 1rem;
+    }
+
+    #paragraph {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    ul {
+        padding: 0;
+    }
+
+}

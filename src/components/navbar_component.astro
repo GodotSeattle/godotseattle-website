@@ -1,0 +1,17 @@
+---
+import './navbar.css';
+import Navlink from "./navlink_component.astro";
+---
+
+<div class="navbar">
+    <h1 id="title">
+        <img src="/icons/godot.svg" />
+        GODOT SEATTLE
+    </h1>
+
+    <div class="navbar-links">
+        <Navlink to="/">home</Navlink>
+        <Navlink to="/projects">projects</Navlink>
+        <Navlink to="/friends">friends</Navlink>
+    </div>
+</div>
