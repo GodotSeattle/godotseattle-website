@@ -11,9 +11,11 @@
   },
   "dependencies": {
     "@astrojs/cloudflare": "^13.6.0",
-    "astro": "^6.4.2"
+    "astro": "^6.4.2",
+    "react-router-dom": "^7.18.5"
   },
   "devDependencies": {
+    "@types/react": "^19.3.0",
     "prettier": "^3.8.3"
   }
 }

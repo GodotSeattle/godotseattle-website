@@ -1,6 +1,58 @@
+---
+import "./welcome.css"
+---
+
 <div id="content">
-  <h1 id="title">GODOT SEATTLE</h1>
-  <h2>Community</h2>
+  <div class="introduction">
+    <h2 id="heading">Welcome to the Godot Seattle User Group!</h2>
+    <p id="paragraph">
+      We are a collective of programmers, artists, and designers located in the Seattle Metropolitan Area as well as around the state of Washington, USA. 
+      <br />
+      We are passionate about game development and collaborate with each other to gain a better understanding and insight on how to make games!
+    </p>
+  </div>
+
+  <div class="meetup-gallery">
+    <h2 id="heading">
+      Meetups
+    </h2>
+    <p id="paragraph">
+      We meet up every month in person at The SiM located in downtown Seattle!
+      Come check out the awesome stuff local devs are making in Godot.
+      <br />
+      <br />
+      We also have online meetups on our Discord server! Join us for a bi-weekly study hall with our esteemed industry professional Patrick!
+    </p>
+
+    <h3 id="heading-2">
+      Godot Seattle In Person
+    </h3>
+
+    <div class="display-case">
+
+      <figure>
+        <img src="/images/meetup_1.jpg" />
+        <figcaption>One of our meetups!</figcaption>
+      </figure>
+
+      <figure>
+        <img src="/images/nate_audiot.png" />
+        <figcaption>Nate showing off his new tool, 
+          <a class="link" href="https://audiot.app/">audiot</a>!
+        </figcaption>
+      </figure>
+      
+    </div>
+  </div>
+
+  <div class="footer-links">
+    <h2 id="heading">come join us!</h2>
+    <a class="link" href="https://discord.gg/Kef5KCwAwd">
+      <img src="/icons/discord-v2-svgrepo-com.svg"/>
+      our discord page
+    </a>
+  </div>
+  <!-- <h2>Community</h2>
   <ul>
     <li>
       <a href="https://discord.gg/G7WNW6GYrf" target="_blank"
@@ -91,51 +143,8 @@
     <li>
       <a href="https://wheelstealgame.com/" target="_blank">Wheel Steal</a>
     </li>
-  </ul>
+  </ul> -->
 </div>
 
-<style>
-  #content {
-    padding: 2rem;
-    position: relative;
-    z-index: 1;
-  }
 
-  ul {
-    margin: 1rem 0;
-    list-style-type: none;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1.5rem;
-    max-width: 600px;
-  }
 
-  ul ul {
-    padding-left: 2rem;
-    font-size: 1.2rem;
-  }
-
-  ul li {
-    margin-bottom: 0.5rem;
-  }
-
-  a {
-    color: #61dafb;
-    text-decoration: none;
-  }
-
-  a:hover {
-    text-decoration: underline;
-  }
-
-  #title {
-    font-size: 3rem;
-    font-weight: bold;
-    margin: 0;
-    color: white;
-    font-family: "Lilita One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-</style>
