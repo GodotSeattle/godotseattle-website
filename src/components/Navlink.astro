@@ -1,0 +1,13 @@
+---
+interface Props {
+    to: string;
+    scrolled?: boolean;
+    tabIndex?: number;
+}
+
+const { to, tabIndex } = Astro.props;
+---
+
+<a href={to} class="navbar-links" tabindex={tabIndex}>
+    <slot />
+</a>
