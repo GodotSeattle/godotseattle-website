@@ -1,0 +1,46 @@
+/* Stylesheet for the Godot Seattle Welcome Page. */
+
+
+#content {
+padding: 2rem;
+position: relative;
+z-index: 1;
+}
+
+ul {
+margin: 1rem 0;
+list-style-type: none;
+font-optical-sizing: auto;
+font-weight: 400;
+font-style: normal;
+font-size: 1.5rem;
+max-width: 600px;
+}
+
+ul ul {
+padding-left: 2rem;
+font-size: 1.2rem;
+}
+
+ul li {
+margin-bottom: 0.5rem;
+}
+
+a {
+color: #61dafb;
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+#title {
+font-size: 3rem;
+font-weight: bold;
+margin: 0;
+color: white;
+font-family: "Lilita One", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
